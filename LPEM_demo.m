@@ -4,7 +4,7 @@ addpath('auxi_funcs')
 %% load dataset
 addpath('datasets')
 % dataset#1 to #13, where dataset#1-#5 are used in the paper.
-dataset = 'dataset#9'; 
+dataset = 'dataset#1'; 
 Load_dataset % For other datasets, we recommend a similar pre-processing as in "Load_dataset"
 image_t1 = image_normlized(image_t1,opt.type_t1);
 image_t2 = image_normlized(image_t2,opt.type_t2);
@@ -35,7 +35,7 @@ sparsity_level = sum(Ref_gt(:))/(size(Ref_gt,1)*size(Ref_gt,2));
 par.alpha = min(sparsity_level*7.5,0.9); 
 par.beta = 5;
 par.Ns = 5000;
-% LSA is more robust than QPBO, but not as fast as QPBO! In the paper, we use the LSA£¡
+% LSA is more robust than QPBO, but not as fast as QPBO! In the paper, we use the LSAÂ£Â¡
 par.SolutionMethod = 'QPBO'; % QPBO or LSA
 if strcmp(dataset,'dataset#2') == 1 && par.Ns <=5000
     par.SolutionMethod = 'LSA';
