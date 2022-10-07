@@ -25,4 +25,4 @@ Please refer to the paper for details. You are more than welcome to use the code
 
 ## Running
 
-Run the LPEM demo file! 
+Unzip the Zip files (QPBO, LSA) and run the LPEM demo file! 
