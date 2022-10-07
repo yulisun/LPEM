@@ -1,8 +1,7 @@
 clear;
 close all
-addpath('auxi_funcs')
+addpath(genpath(pwd))
 %% load dataset
-addpath('datasets')
 % dataset#1 to #13, where dataset#1-#5 are used in the paper.
 dataset = 'dataset#1'; 
 Load_dataset % For other datasets, we recommend a similar pre-processing as in "Load_dataset"
