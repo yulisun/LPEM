@@ -1,5 +1,5 @@
 # LPEM
-Locality Preservation for Unsupervised Multimodal Change Detection
+Locality Preservation for Unsupervised Multimodal Change Detection. 
 
 ## Introduction
 
@@ -25,4 +25,4 @@ Please refer to the paper for details. You are more than welcome to use the code
 
 ## Running
 
-Unzip the Zip files (QPBO, LSA) and run the LPEM demo file! 
+Unzip the Zip files (QPBO, LSA) and run the LPEM demo file (tested in Matlab 2016a)! 
