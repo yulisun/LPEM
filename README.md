@@ -26,3 +26,5 @@ Please refer to the paper for details. You are more than welcome to use the code
 ## Running
 
 Unzip the Zip files (QPBO, LSA) and run the LPEM demo file (tested in Matlab 2016a)! 
+
+If you have any queries, please do not hesitate to contact me (yulisun@mail.ustc.edu.cn).
