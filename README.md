@@ -11,15 +11,15 @@ Please refer to the paper for details. You are more than welcome to use the code
 
 ## Datasets and Energy minimization algorithms
 
-#dataset#1 is download from Professor Michele Volpi's webpage at https://sites.google.com/site/michelevolpiresearch/home.
+dataset#1 is download from Professor Michele Volpi's webpage at https://sites.google.com/site/michelevolpiresearch/home.
 
-#dataset#5 is download from Dr. Luigi Tommaso Luppino's webpage (https://sites.google.com/view/luppino/data) and it was downsampled to 875*500 as shown in our paper.
+dataset#5 is download from Dr. Luigi Tommaso Luppino's webpage (https://sites.google.com/view/luppino/data) and it was downsampled to 875*500 as shown in our paper.
 
-#QPBO energy minimization algorithm is download from Professor Anton Osokin's webpage at https://github.com/aosokin/qpboMex.
+QPBO energy minimization algorithm is download from Professor Anton Osokin's webpage at https://github.com/aosokin/qpboMex.
 
-#LSA energy minimization algorithm is download from https://vision.cs.uwaterloo.ca/code/.
+LSA energy minimization algorithm is download from https://vision.cs.uwaterloo.ca/code/.
 
-#If you use these resources, please cite their relevant papers.
+If you use these resources, please cite their relevant papers.
 
 ===================================================
 
