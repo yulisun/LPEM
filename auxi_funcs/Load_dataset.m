@@ -42,11 +42,11 @@ elseif strcmp(dataset,'dataset#11') == 1 % MCD of SAR VS. SAR with different ENL
     load('dataset#11.mat')
     opt.type_t1 = 'sar';
     opt.type_t2 = 'sar';
-    elseif strcmp(dataset,'dataset#12') == 1 % MCD of SAR VS. SAR with different ENL
+elseif strcmp(dataset,'dataset#12') == 1 % MCD of SAR VS. SAR with different ENL
     load('dataset#12.mat')
     opt.type_t1 = 'sar';
     opt.type_t2 = 'sar';
-    elseif strcmp(dataset,'dataset#13') == 1 % MCD of SAR VS. SAR with different ENL
+elseif strcmp(dataset,'dataset#13') == 1 % MCD of SAR VS. SAR with different ENL
     load('dataset#13.mat')
     opt.type_t1 = 'sar';
     opt.type_t2 = 'sar';
