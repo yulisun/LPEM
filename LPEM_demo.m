@@ -5,7 +5,7 @@ addpath(genpath(pwd))
 % dataset#1 to #13, where dataset#1-#5 are used in the paper.
 dataset = 'dataset#1'; 
 Load_dataset % For other datasets, we recommend a similar pre-processing as in "Load_dataset"
-image_t1 = image_normlized(image_t1,opt.type_t1);
+image_t1 = image_normlized(image_t1,opt.type_t1); % Note that the results in the paper are obtained when normalization is not used 
 image_t2 = image_normlized(image_t2,opt.type_t2);
 fprintf(['\n Data loading is completed...... ' '\n'])
 %% Parameter setting
