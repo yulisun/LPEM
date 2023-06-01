@@ -73,3 +73,5 @@ else
     subplot(132);imshow(image_t2);title('imaget2')
     subplot(133);imshow(Ref_gt,[]);title('Refgt')
 end
+image_t1 = double(image_t1);
+image_t2 = double(image_t2);
