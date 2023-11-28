@@ -46,11 +46,11 @@ time = clock;
 [CM,labels,Cosup] = LPEM_main(image_t1,image_t2,par);
 change_ratio = sum(CM(:))/(size(CM,1)*size(CM,2));
 if  change_ratio > (1-1e-5)
-    par.alfa = par.alfa/2;
+    par.alpha = par.alpha/2;
     [CM,labels,Cosup] = LPEM_main(image_t1,image_t2,par);
 end
 if  change_ratio < 1e-5
-    par.alfa = par.alfa*2;
+    par.alpha = par.alpha*2;
     [CM,labels,Cosup] = LPEM_main(image_t1,image_t2,par);
 end
 fprintf('\n');fprintf('The total computational time of LPEM using %s is %i \n', par.SolutionMethod,etime(clock,time));
