@@ -27,7 +27,7 @@ If you use these resources, please cite their relevant papers.
 
 If you use this code for your research, please cite our paper. Thank you!
 
-@ARTICLE{10540635,
+@ARTICLE{10540635,    
   author={Sun, Yuli and Lei, Lin and Guan, Dongdong and Kuang, Gangyao and Li, Zhang and Liu, Li},  
   journal={IEEE Transactions on Neural Networks and Learning Systems},   
   title={Locality Preservation for Unsupervised Multimodal Change Detection in Remote Sensing Imagery},   
